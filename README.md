@@ -119,6 +119,8 @@ source ~/.bashrc
 
 [Project Reference](https://docs.google.com/document/d/1SFfYeL9RrRfCy0YRkwnT921exbTTX5tCZhqelGi_MPg/edit)
 
+[Medium](https://medium.com/@janetlinw/an-introduction-guide-on-setting-up-livox-hap-lidar-54881600c26a)
+
 
 ## Acknowledgements
 
