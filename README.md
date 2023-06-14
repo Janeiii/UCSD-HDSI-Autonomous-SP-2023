@@ -143,6 +143,12 @@ source ~/.bashrc
  - [Livox HAP SDK](https://github.com/Livox-SDK/Livox-SDK2)
 
 
+## Authors
+
+- [Gordon Zhao](https://github.com/gordon-zhao)
+- [Moses Wong](https://github.com/mmwong920)
+- [Janet Lin](https://github.com/Janeiii)
+- [Aashish Bhole](https://github.com/aashishbhole)
 ## Support
 
 For additional support, please contact or email mlopezme@ucsd.edu.
