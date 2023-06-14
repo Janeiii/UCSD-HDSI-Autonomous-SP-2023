@@ -2,7 +2,9 @@
 # Automated Reasoning Applied to Physical Systems Improving the Robustness of Autonomous Vehicles - LiDAR Application, UCSD HDSI - DSC 190 SP 2023 Capstone Project
 
 
-This guide will provide you with the necessary steps and instructions to set up and configure your LIVOX HAP, and walk you through the process of setting up and configuring the LIVOX HAP system. The LIVOX HAP system combines LiDAR pointcloud visualization and cone detection capabilities, providing valuable information for path planning in ROS2-based autonomous vehicles.
+This guide will provide you with the necessary steps and instructions to set up and configure your LIVOX HAP, and walk you through the process of setting up and configuring the LIVOX HAP system. The LIVOX HAP system combines LiDAR pointcloud visualization and cone detection capabilities, providing valuable information for path planning in ROS2-based autonomous vehicles. For more information, please visit [evgokart-slam](https://github.com/aashishbhole/evgokart-slam).
+
+![Photo Credit from https://www.livoxtech.com/hap](https://miro.medium.com/v2/resize:fit:1400/format:webp/1*JRQrihM7Ki3ZOsKsVppGxQ.png)
 ## Features
 
 - LiDAR Pointcloud Visualization
@@ -94,6 +96,14 @@ source ../../install/setup.sh
 ros2 launch livox_ros_driver2 [launch file]
 Eg. ros2 launch livox_ros_driver2 rviz_HAP_launch.py
 ```
+Real-life example from RViz
+![alt text](https://miro.medium.com/v2/resize:fit:1400/format:webp/1*E3QiZYDYLCZ86vjzLbP4nw.png)
+![alt text](https://miro.medium.com/v2/resize:fit:1400/format:webp/1*hOp18l1q8JIe91LqGtlhng.png)
+## Demo
+
+Below shows a quick demo of how LIVOX HAP Lidar is applied in real-life senario, alongside the application of path planning on the left.
+
+![Demo running the cone detection](https://github.com/aashishbhole/evgokart-slam/raw/main/media/demo.gif)
 
 
 ## FAQ
@@ -117,7 +127,11 @@ source ~/.bashrc
 ```
 ## Documentation
 
+[Final Report](https://docs.google.com/document/d/1kUisbx2-pAKSdtpWiEEyaNBT1TFwzrGiAgTsGAvwrDo/edit?usp=sharing)
+
 [Project Reference](https://docs.google.com/document/d/1SFfYeL9RrRfCy0YRkwnT921exbTTX5tCZhqelGi_MPg/edit)
+
+[Medium](https://medium.com/@janetlinw/an-introduction-guide-on-setting-up-livox-hap-lidar-54881600c26a)
 
 
 ## Acknowledgements
